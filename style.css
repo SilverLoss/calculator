@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600:800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, violet, pink);
+}
+
+.container {
+  background-color: #fff;
+  width: 400px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.screens input {
+  width: 360px;
+  height: 100px;
+  font-size: 3rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background: #cccccc;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.buttons table tr td button {
+  width: 70px;
+  height: 70px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 10px;
+  background: linear-gradient(135deg, violet, pink);
+}
+.buttons table tr td button.small {
+  font-size: 3rem;
+  font-weight: 200;
+}
